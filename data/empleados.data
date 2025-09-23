@@ -1,0 +1,11 @@
+persona1.nombre=Juan
+persona1.apellido=Perez
+persona1.email=juan.perez@email.com
+persona1.telefono=3001234567
+persona1.sueldo=1000000
+
+persona2.nombre=Maria
+persona2.apellido=Gomez
+persona2.email=maria.gomez@email.com
+persona2.telefono=3109876543
+persona2.sueldo=1500000
