@@ -87,7 +87,24 @@ public class PanelTablaEmpleados extends JPanel {
                 public void actionPerformed(ActionEvent e) {
                     fireEditingStopped();
                     Persona p = principal.getPersonal().get(row);
-                    deleteEmpleado(p);
+                    
+                    int opcion = JOptionPane.showConfirmDialog(
+                        PanelTablaEmpleados.this,
+                        "¿Está seguro que desea eliminar al empleado " + p.getNombre() + " " + p.getApellido() + "?",
+                        "Confirmar eliminación",
+                        JOptionPane.YES_NO_OPTION,
+                        JOptionPane.QUESTION_MESSAGE
+                    );
+                    
+                    if (opcion == JOptionPane.YES_OPTION) {
+                        deleteEmpleado(p);
+                        JOptionPane.showMessageDialog(
+                            PanelTablaEmpleados.this,
+                            "Empleado eliminado exitosamente",
+                            "Éxito",
+                            JOptionPane.INFORMATION_MESSAGE
+                        );
+                    }
                 }
             });
         }

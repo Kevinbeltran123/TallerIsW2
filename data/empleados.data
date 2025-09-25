@@ -1,11 +1,32 @@
-persona1.nombre=Juan
+#Archivo de empleados
+#Tue Sep 23 16:42:24 COT 2025
 persona1.apellido=Perez
+persona1.cargo=
+persona1.cedula=
+persona1.deducciones=0.0
 persona1.email=juan.perez@email.com
+persona1.horasExtras=0.0
+persona1.nombre=Juan
+persona1.salarioBase=1000000.0
+persona1.sueldo=1000000.0
 persona1.telefono=3001234567
-persona1.sueldo=1000000
-
-persona2.nombre=Maria
 persona2.apellido=Gomez
+persona2.cargo=
+persona2.cedula=
+persona2.deducciones=0.0
 persona2.email=maria.gomez@email.com
+persona2.horasExtras=0.0
+persona2.nombre=Maria
+persona2.salarioBase=1500000.0
+persona2.sueldo=1500000.0
 persona2.telefono=3109876543
-persona2.sueldo=1500000
+persona3.apellido=Beltran
+persona3.cargo=Nose
+persona3.cedula=111111111
+persona3.deducciones=60000.0
+persona3.email=kevin@email.com
+persona3.horasExtras=50.0
+persona3.nombre=Kevin
+persona3.salarioBase=1450000.0
+persona3.sueldo=1450000.0
+persona3.telefono=2113321133
